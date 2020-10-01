@@ -1,0 +1,12 @@
+{
+  "name": "firebase_structure",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "BABA HIRONOBU",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "functions",
+    "hosting"
+  ]
+}

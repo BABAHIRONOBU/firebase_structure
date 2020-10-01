@@ -1,0 +1,28 @@
+{
+  "name": "functions",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "author": "BABA HIRONOBU",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "lint": "eslint .",
+    "build": "tsc",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "yarn shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "dependencies": {
+    "firebase-admin": "^9.2.0",
+    "firebase-functions": "^3.11.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.3.0",
+    "@typescript-eslint/parser": "^4.3.0",
+    "eslint": "^7.10.0",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.3"
+  }
+}
